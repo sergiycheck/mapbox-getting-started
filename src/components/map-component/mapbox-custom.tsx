@@ -8,6 +8,14 @@ mapboxgl.accessToken = process.env.REACT_APP_ACCESS_TOKEN!;
 // map reference
 // https://docs.mapbox.com/mapbox-gl-js/api/map/#map#on
 
+// TODO: pupup not removing properly and blinking
+// at the bottom of the page
+
+// TODO: popups not working as expected
+
+// tutorial
+// https://docs.mapbox.com/help/tutorials/add-points-pt-3/
+
 export default function MapboxCustomMap() {
   const mapContainer = useRef<any>("");
   const map = useRef<null | mapboxgl.Map>(null);
