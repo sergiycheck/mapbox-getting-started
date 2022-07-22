@@ -1,0 +1,23 @@
+.mapboxgl-map {
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+
+.sidebar {
+  text-align: center;
+  padding: 1rem 1rem;
+  background-color: rgba(35, 55, 75, 0.9);
+  border-radius: 0.4rem;
+  width: 35%;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+}
+
+.popup {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: none !important;
+}
